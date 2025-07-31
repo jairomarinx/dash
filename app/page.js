@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 
-const BASE_URL = 'http://localhost:8000/api/'
+const BASE_URL = 'http://20.84.65.157/api/'
 
 export default function Page() {
   const [users, setUsers] = useState([])
